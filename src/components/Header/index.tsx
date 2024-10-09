@@ -14,12 +14,12 @@ export default function Header() {
 
       <div className="flex space-x-8 text-blue-900 mr-10">
         <div>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Nicolasmoss92" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={24} />
             </a>
         </div>
         <div>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/nicolas-moss-02b7871b5/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={24} />
             </a>
         </div>
