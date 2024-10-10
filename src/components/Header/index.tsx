@@ -13,14 +13,14 @@ export default function Header() {
   return (
     <header className="bg-blue-100 w-full h-24 flex items-center justify-between px-4 sm:px-8 border border-blue-300">
       <div className="flex items-center space-x-6 sm:space-x-20">
-        <div className="w-12 h-12">
-          <img 
+        <div className="w-20 h-20"> {/* Aumente a largura e altura aqui */}
+          <img
             src="/logoDB.png"  // Substitua pelo caminho correto da sua imagem
-            alt="Logo DB" 
-            className="object-contain" 
+            alt="Logo DB"
+            className="w-full h-full object-contain"  // Adicione essas classes para garantir que a imagem ocupe todo o espaço da div
           />
         </div>
-        
+
         {/* Navegação para telas grandes */}
         <nav className="hidden sm:flex space-x-4 sm:space-x-12 text-blue-900 font-semibold">
           <a href="#sobre" className="hover:underline">Sobre</a>
@@ -52,7 +52,7 @@ export default function Header() {
           <a href="#sobre" className="hover:underline" onClick={toggleMenu}>Sobre</a>
           <a href="#curriculo" className="hover:underline" onClick={toggleMenu}>Currículo</a>
           <a href="#projetos" className="hover:underline" onClick={toggleMenu}>Projetos</a>
-          
+
           {/* Texto no menu de hambúrguer */}
           <div className="flex flex-col items-center space-y-4">
             <a href="https://github.com/Nicolasmoss92" target="_blank" rel="noopener noreferrer" aria-label="Github">
