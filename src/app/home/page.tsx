@@ -23,26 +23,16 @@ export default function Home() {
 
         {/* Quadrante 2 */}
         <div className="bg-white flex flex-col justify-start items-start">
-          <div className="mx-auto text-right ml-0 mt-8 w-56 h-56">
+          <div className="mx-auto text-right ml-0 mt-10 w-56 h-58">
             <img
               src="/nicolasPerfil.jpeg"
               alt="Foto de perfil"
-              className="object-cover"
+              className="object-cover w-full h-full" // Ajusta a imagem para ocupar todo o espaço
             />
+          </div>
         </div>
-    </div>
-
-        {/* Quadrante 3 */ }
-  <div className="bg-green-500 flex justify-center items-center">
-    {/* Conteúdo do quadrante 3 (vazio por enquanto) */}
-  </div>
-
-  {/* Quadrante 4 */ }
-  <div className="bg-yellow-500 flex justify-center items-center">
-    {/* Conteúdo do quadrante 4 (vazio por enquanto) */}
-  </div>
       </main >
-    <Footer />
+      <Footer />
     </div >
   );
 }
