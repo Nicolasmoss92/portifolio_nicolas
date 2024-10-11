@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-blue-100 w-full h-24 flex items-center justify-between px-4 sm:px-8 border border-blue-300">
+    <header className="bg-blue-100 w-full h-20 flex items-center justify-between px-4 sm:px-8 border border-blue-300">
       <div className="flex items-center space-x-6 sm:space-x-20">
         <div className="w-20 h-20"> {/* Aumente a largura e altura aqui */}
           <img

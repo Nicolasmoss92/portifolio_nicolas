@@ -30,4 +30,71 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+ html, body {
+  height: 100%; /* Garante que o body e html ocupem toda a tela */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* O layout ocupará toda a altura da janela */
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  flex-shrink: 0; /* O header mantém o seu tamanho e não diminui */
+}
+
+footer {
+  flex-shrink: 0; /* O footer mantém o seu tamanho e não diminui */
+}
+
+.content {
+  flex-grow: 1; /* O conteúdo principal cresce para ocupar o espaço restante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info h3 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 18px;
+  color: #555;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 }

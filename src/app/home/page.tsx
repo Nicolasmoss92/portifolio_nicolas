@@ -2,51 +2,47 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { FaCircle } from "react-icons/fa";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Header fixo no topo */}
-      <header className="bg-gray-100 w-full">
-        <Header />
-      </header>
+      <Header />
 
-      {/* Divisão da página em duas colunas */}
-      <main className="flex-1 flex flex-col md:flex-row">
-        {/* Coluna da Esquerda */}
-        <section className="flex-1 flex justify-center items-center bg-white p-6">
-          <div className="max-w-md text-left">
+      <main className="flex-1 grid grid-cols-1 md:grid-cols-2 p-0">
+        {/* Quadrante 1 */}
+        <div className="bg-white flex flex-col justify-start items-start p-8">
+          <div className="mx-auto text-left mr-0">
             <p className="text-lg font-medium text-gray-700">Olá, meu nome é</p>
-            <h1 className="text-5xl font-bold mb-2">Ana Maria</h1>
+            <h1 className="text-5xl font-bold mb-2">Nicolas Moss</h1>
             <p className="text-2xl font-light text-gray-500">
-              Sou trainee de desenvolvimento de software na DBServer.
+              Sou desenvolvedor de software na DBServer.
             </p>
-
-            <div className="mt-8">
-              <h2 className="text-2xl font-semibold mb-4">Sobre mim</h2>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam urna, 
-                euismod at porttitor in, dignissim eu mauris. In sem nibh, viverra eu risus 
-                sed, accumsan luctus dui. Fusce ex neque, maximus quis dui et, rutrum 
-                sollicitudin sem. Sed diam urna, euismod at porttitor in, dignissim eu 
-                mauris. In sem nibh, viverra eu risus sed, accumsan luctus dui. Fusce ex 
-                neque, maximus quis dui et, rutrum sollicitudin sem.
-              </p>
-            </div>
           </div>
-        </section>
+        </div>
 
-        {/* Coluna da Direita */}
-        <section className="flex-1 flex justify-center items-center bg-green-200">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold">Seção Direita</h1>
-            <p className="mt-4 text-lg">Conteúdo ou imagem da direita.</p>
-          </div>
-        </section>
-      </main>
-      <footer >
-        <Footer />
-      </footer>
+        {/* Quadrante 2 */}
+        <div className="bg-white flex flex-col justify-start items-start">
+          <div className="mx-auto text-right ml-0 mt-8 w-56 h-56">
+            <img
+              src="/nicolasPerfil.jpeg"
+              alt="Foto de perfil"
+              className="object-cover"
+            />
+        </div>
     </div>
+
+        {/* Quadrante 3 */ }
+  <div className="bg-green-500 flex justify-center items-center">
+    {/* Conteúdo do quadrante 3 (vazio por enquanto) */}
+  </div>
+
+  {/* Quadrante 4 */ }
+  <div className="bg-yellow-500 flex justify-center items-center">
+    {/* Conteúdo do quadrante 4 (vazio por enquanto) */}
+  </div>
+      </main >
+    <Footer />
+    </div >
   );
 }
