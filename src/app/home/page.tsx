@@ -119,10 +119,10 @@ export default function Home() {
                       }}></span>
                       <p className="text-xl font-medium mr-4 w-24">JAVASCRIPT</p>
                       <div className="flex space-x-1 ml-6">
+                      <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
-                        <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
                       </div>
                     </li>
@@ -158,7 +158,7 @@ export default function Home() {
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
-                        <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
+                        <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
                       </div>
                     </li>
@@ -194,7 +194,7 @@ export default function Home() {
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
-                        <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
+                        <div className="w-6 h-6 bg-yellow-500 rounded-full"></div>
                         <div className="w-6 h-6 border-2 border-yellow-500 rounded-full"></div>
                       </div>
                     </li>
