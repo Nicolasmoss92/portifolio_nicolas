@@ -11,7 +11,7 @@ export default function Curriculum() {
       <main className="flex-grow">
         <div className="flex justify-center items-center py-10">
           <iframe
-            src="/Moss, Nicolas cv.pdf"
+            src="/NicolasCV.pdf"
             width="80%"
             height="800px"
           />
