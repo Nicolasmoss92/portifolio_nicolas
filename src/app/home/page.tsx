@@ -12,19 +12,19 @@ export default function Home() {
         <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 grid-rows-2">
           {/* Texto "Olá, meu nome é" com Poppins Bold */}
           <div className="bg-white">
-            <div className="bg-white p-8 md:ml-32 lg:ml-64 mt-16">
+            <div className="bg-white p-8 md:ml-32 lg:ml-64 mt-10">
               <div>
-                <p className="text-lg font-bold text-gray-700" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <p className="text-lg font-bold text-gray-700 leading-7" style={{ fontFamily: "Poppins, sans-serif" }}>
                   Olá, meu nome é
                 </p>
 
-                {/* Nome "Ana Maria" com Roboto Flex */}
-                <h1 className="text-5xl font-bold mb-2" style={{ fontFamily: "Roboto Flex, sans-serif" }}>
-                  Ana Maria
+                {/* Nome "Nicolas Moss" com Roboto Flex */}
+                <h1 className="text-5xl font-bold mb-2 leading-snug" style={{ fontFamily: "Roboto Flex, sans-serif" }}>
+                  Nicolas Moss
                 </h1>
 
                 {/* Texto "Sou desenvolvedor de software" com Poppins Regular */}
-                <p className="text-2xl font-light text-gray-500" style={{ fontFamily: "Poppins, sans-serif" }}>
+                <p className="text-2xl font-light text-gray-500 leading-6" style={{ fontFamily: "Poppins, sans-serif" }}>
                   Sou desenvolvedor de software na DBServer.
                 </p>
               </div>
