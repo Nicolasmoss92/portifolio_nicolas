@@ -1,3 +1,5 @@
+'use client';
+
 export default function ProfileImage() {
     return (
       <div className="bg-white flex justify-left items-left">

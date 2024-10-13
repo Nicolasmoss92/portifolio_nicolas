@@ -1,3 +1,5 @@
+'use client';
+
 export default function IntroSection() {
   return (
     <div className="bg-white">

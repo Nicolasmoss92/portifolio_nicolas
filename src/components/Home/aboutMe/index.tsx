@@ -1,3 +1,5 @@
+'use client';
+
 export default function AboutMeSection() {
     return (
         <div className="bg-white">

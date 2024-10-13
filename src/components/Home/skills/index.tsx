@@ -1,15 +1,8 @@
+'use client';
+
+import { SkillsSectionProps } from "@/types/skillSection";
 import SkillItem from "@/untils/skill"; 
 
-
-interface Skill {
-    name: string;
-    filled: number;
-    total: number;
-}
-
-interface SkillsSectionProps {
-    skills: Skill[];
-}
 
 export default function SkillsSection({ skills }: SkillsSectionProps) {
     return (

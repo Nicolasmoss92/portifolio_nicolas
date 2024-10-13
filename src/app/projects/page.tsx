@@ -10,7 +10,6 @@ export default function Project() {
       <Header />
 
       <main className="bg-white flex flex-col py-10 px-5">
-        {/* Título do projeto */}
         <div className="mb-10 ml-24">
           <h1 className="text-2xl font-medium">Meus</h1>
           <h2 className="text-6xl font-bold leading-none">Projetos</h2>
