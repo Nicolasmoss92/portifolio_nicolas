@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
-import Link from 'next/link'; // Import do Next.js para navegação interna
+import Link from 'next/link'; 
 
 interface HeaderProps {}
 
@@ -25,8 +25,7 @@ export default function Header({}: HeaderProps): JSX.Element {
             />
           </a>
         </div>
-
-        {/* Navegação para páginas internas */}
+        
         <nav className="hidden sm:flex space-x-4 sm:space-x-12 text-blue-900 font-semibold">
           <Link href="/home" className="hover:underline">Sobre</Link>
           <Link href="/curriculum" className="hover:underline">Currículo</Link>
