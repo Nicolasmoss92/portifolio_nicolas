@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
-import Link from 'next/link'; 
+import Link from 'next/link';
 
-interface HeaderProps {}
+interface HeaderProps { }
 
-export default function Header({}: HeaderProps): JSX.Element {
+export default function Header({ }: HeaderProps): JSX.Element {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleMenu = (): void => {
@@ -19,17 +19,17 @@ export default function Header({}: HeaderProps): JSX.Element {
         <div className="w-20 h-20">
           <a href="https://db.tec.br/" target="_blank" rel="noopener noreferrer">
             <img
-              src="/logoDB.png"
+              src="/image/logoDB.png"
               alt="Logo DB"
               className="w-full h-full object-contain"
             />
           </a>
         </div>
-        
+
         <nav className="hidden sm:flex space-x-4 sm:space-x-12 text-blue-900 font-semibold">
-          <Link href="/home" className="hover:underline">Sobre</Link>
-          <Link href="/curriculum" className="hover:underline">Currículo</Link>
-          <Link href="/projects" className="hover:underline">Projetos</Link>
+          <Link href="/home" className="font-supermolot text-lg hover:text-blue-500 no-underline">Sobre</Link>
+          <Link href="/curriculum" className="font-supermolot text-lg hover:text-blue-500 no-underline">Currículo</Link>
+          <Link href="/projects" className="font-supermolot text-lg hover:text-blue-500 no-underline">Projetos</Link>
         </nav>
       </div>
 
@@ -50,10 +50,9 @@ export default function Header({}: HeaderProps): JSX.Element {
 
       {isOpen && (
         <nav className="absolute top-24 left-0 w-full bg-blue-100 flex flex-col items-center space-y-4 py-4 text-blue-900 font-semibold sm:hidden">
-          <Link href="/sobre" className="hover:underline" onClick={toggleMenu}>Sobre</Link>
-          <Link href="/curriculo" className="hover:underline" onClick={toggleMenu}>Currículo</Link>
-          <Link href="/projetos" className="hover:underline" onClick={toggleMenu}>Projetos</Link>
-
+          <Link href="/home" className="font-supermolot text-lg hover:text-blue-500 no-underline">Sobre</Link>
+          <Link href="/curriculum" className="font-supermolot text-lg hover:text-blue-500 no-underline">Currículo</Link>
+          <Link href="/projects" className="font-supermolot text-lg hover:text-blue-500 no-underline">Projetos</Link>
           <div className="flex flex-col items-center space-y-4">
             <a href="https://github.com/Nicolasmoss92" target="_blank" rel="noopener noreferrer" aria-label="Github">
               GitHub

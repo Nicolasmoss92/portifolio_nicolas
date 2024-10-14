@@ -16,6 +16,21 @@
   }
 }
 
+
+@font-face {
+  font-family: 'SupermolotBold';
+  src: url('/fonts/TT-Supermolot-Neue-Trial-Bold-BF65fcfb49ac589.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SupermolotNeu';
+  src: url('/fonts/TT-Supermolot-Neue-Trial-Regular-BF65fcfb4f8c934.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -42,5 +57,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh; /* O layout ocupará toda a altura da janela */
+}
+
+.font-supermolot {
+  font-family: 'SupermolotBold', sans-serif;
+}
+
+.font-Supermolot-neu {
+  font-family: 'SupermolotNeu', sans-serif;
 }
 }

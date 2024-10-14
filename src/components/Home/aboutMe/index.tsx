@@ -4,7 +4,7 @@ export default function AboutMeSection() {
     return (
         <div className="bg-white">
         <div className="bg-white p-8 md:ml-32 lg:ml-64">
-          <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: "Poppins, sans-serif" }}>
+          <h2 className="supermolot text-3xl font-bold mb-4">
             Sobre mim
           </h2>
           <p style={{ fontFamily: "Roboto Flex, sans-serif" }}>

@@ -6,7 +6,7 @@ const SkillItem = ({ name, filled, total }: Skill) => {
     return (
         <li className="flex items-center">
             <span className="inline-block w-1.5 h-1.5 bg-black rounded-full mr-2"></span>
-            <p className="text-xl font-medium mr-4 w-24">{name}</p>
+            <p className="font-supermolot text-xl font-medium mr-4 w-24">{name}</p>
             <div className="flex space-x-1 ml-10">
                 {Array.from({ length: filled }).map((_, index) => (
                     <div key={index} className="w-6 h-6 rounded-full bg-yellow-500"></div>
@@ -23,8 +23,8 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
     return (
         <div className="bg-white">
             <div className="p-8 md:mr-32 lg:mr-64">
-                <h2 className="text-3xl font-bold mb-6 font-poppins">Habilidades</h2>
-                <ul className="space-y-4 ml-4">
+                <h2 className="font-supermolot text-3xl font-bold mb-6 font-poppins">Habilidades</h2>
+                <ul className="space-y-4 ml-2">
                     {skills.map(skill => (
                         <SkillItem key={skill.name} name={skill.name} filled={skill.filled} total={skill.total} />
                     ))}
