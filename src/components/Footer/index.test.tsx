@@ -16,7 +16,7 @@ describe('Footer Component', () => {
   test('renders the image correctly', () => {
     const logoElement = screen.getByAltText('Logo');
     expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveAttribute('src', '/logoDBF.png');
+    expect(logoElement).toHaveAttribute('src', '/image/logoDBF.png');
   });
 });
 

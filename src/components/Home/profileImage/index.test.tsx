@@ -12,7 +12,7 @@ describe('AboutMe Component', () => {
     const imageElement = screen.getByAltText(/foto de perfil/i);
     expect(imageElement).toBeInTheDocument();
 
-    expect(imageElement).toHaveAttribute('src', '/nicolasPerfil.jpeg');
+    expect(imageElement).toHaveAttribute('src', '/image/nicolasPerfil.jpeg');
   });
 });
 

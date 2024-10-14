@@ -11,7 +11,7 @@ describe('Header Component', () => {
   test('check if the logo is present', () => {
     const logoElement = screen.getByAltText('Logo DB');
     expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveAttribute('src', '/logoDB.png');
+    expect(logoElement).toHaveAttribute('src', '/image/logoDB.png');
   })
 
   test('check if navigation links are present', () => {
