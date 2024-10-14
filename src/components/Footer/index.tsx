@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Coluna esquerda: Logo e ícones das redes sociais */}
         <div className="flex flex-col items-center">
           {/* Logo */}
-          <img src="/logoDBF.png" alt="Logo" className="h-20 mb-4" />
+          <img src="/logoDBF.png" alt="Logo" className="h-20 mb-4 mt-6" />
         </div>
       </div>
     </footer>
