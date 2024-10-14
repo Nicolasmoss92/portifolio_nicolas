@@ -17,21 +17,21 @@ export default function Project() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-start ml-24 gap-4">
           <ProjectCard
-            title="Calculadora"
-            description="Sua descrição sobre o projeto não pode ultrapassar 7 linhas."
-            technologies="HTML, CSS, NODE"
+            title="XXXXXXXX"
+            description="Projeto XXXXXX"
+            technologies="XXX, XXXX, XXXXX"
             imageUrl="/nicolasPerfil.jpeg"
           />
           <ProjectCard
-            title="Blog responsivo"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-            technologies="HTML, CSS, NODE"
+            title="XXXXXXXXXXXX"
+            description="Projeto XXXXXXXXXX"
+            technologies="XXX, XXXX, XXXX"
             imageUrl="/nicolasPerfil.jpeg"
           />
           <ProjectCard
-            title="Mobile"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-            technologies="Android Studio, Kotlin"
+            title="XXXXXXXX"
+            description="Projeto XXXXXX"
+            technologies="XXXXXX, XXXXXXX"
             imageUrl="/nicolasPerfil.jpeg"
           />
         </div>
