@@ -2,7 +2,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ProjectCard from "@/components/Card/projectCrad";
+import ProjectCard from "@/components/Card";
 
 export default function Project() {
   return (
