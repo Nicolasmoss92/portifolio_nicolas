@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-grow">
+      <main className="flex-grow m-0 p-0">
         <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 grid-rows-2">
           <div className="bg-white">
             <IntroSection />

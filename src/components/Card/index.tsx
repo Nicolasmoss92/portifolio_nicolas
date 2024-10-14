@@ -4,7 +4,7 @@ import { ProjectCardProps } from "@/types/projectCard";
 
 export default function ProjectCard({ title, description, technologies, imageUrl }: ProjectCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-xs">
+    <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-xs">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4">
         <h3 className="text-xl font-bold">{title}</h3>
