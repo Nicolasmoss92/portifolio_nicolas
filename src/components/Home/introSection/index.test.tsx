@@ -1,7 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Footer from '.';
-import AboutMeSection from '.';
 import IntroSection from '.';
 
 describe('IntroSection Component', () => {

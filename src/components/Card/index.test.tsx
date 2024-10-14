@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ProjectCard from './projectCrad';
+import ProjectCard from '.';
 import { ProjectCardProps } from '@/types/projectCard';
 
 describe('ProjectCard Component', () => {
