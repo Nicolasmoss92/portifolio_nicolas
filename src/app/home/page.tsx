@@ -13,20 +13,17 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main>
+      <main className="flex-grow">
         <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 grid-rows-2">
           <div className="bg-white">
             <IntroSection />
           </div>
-
           <ProfileImage />
-
           <AboutMeSection />
-
           <Skills skills={skills} />
-
         </div>
       </main>
+
       <Footer />
     </div>
   );
