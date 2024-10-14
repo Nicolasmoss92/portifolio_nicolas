@@ -6,7 +6,7 @@ import AboutMeSection from "@/components/Home/aboutMe";
 import IntroSection from "@/components/Home/introSection";
 import ProfileImage from "@/components/Home/profileImage";
 import Skills from "@/components/Home/skills";
-import skills from '@/types/skills.enum';
+import skills from "@/types/skillSection";
 
 export default function Home() {
   return (
