@@ -7,7 +7,7 @@ export default function IntroSection() {
         <p className="font-supermolot text-3xl font-bold text-black leading-9 font-poppins">
           Olá, meu nome é
         </p>
-        <h1 className="font-supermolot text-5xl font-bold mb-2 leading-snug font-roboto">
+        <h1 className="font-supermolot text-5xl font-bold leading-snug font-roboto">
           Nicolas Moss
         </h1>
         <p className="font-Supermolot-neu text-3xl font-light text-black leading-9 font-poppins">
