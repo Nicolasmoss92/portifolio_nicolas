@@ -9,15 +9,14 @@ describe('AboutMe Component', () => {
     render(<AboutMeSection />);
   });
 
-  test('renders the footer correctly', () => {
-    const footerElement = screen.getByRole('contentinfo');
-    expect(footerElement).toBeInTheDocument();
-  });
+  test('verify that the "sobre mim" title is rendered', () => {
+    const titleElement = screen.getByText(/sobre mim/i);
+    expect(titleElement).toBeInTheDocument();
+  })
 
-  test('renders the image correctly', () => {
-    const logoElement = screen.getByAltText('Logo');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveAttribute('src', '/logoDBF.png');
-  });
+  test('verify that the description is rendered', () => {
+    const descriptionElement = screen.getByText(/lorem ipsum dolor sit amet/i);
+    expect(descriptionElement).toBeInTheDocument();
+  })
 });
 
